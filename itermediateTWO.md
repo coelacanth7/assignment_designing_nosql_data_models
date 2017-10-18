@@ -37,8 +37,9 @@
       * classname: string
       * grades: [ arrray of grades ]
         * each position is exam number
+        
     }
 
   }
-  
+
 }
