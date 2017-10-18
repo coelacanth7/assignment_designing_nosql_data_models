@@ -29,8 +29,11 @@
   * NumOfSeats: integer
   * availability: {
     * Date: {
-      * timeslot: integer
-      * available: boolean
+      * timeslot: {
+        * time: Datetime
+        * available: boolean
+        
+      }
 
     }
 
