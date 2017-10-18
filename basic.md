@@ -10,6 +10,7 @@
     * Must be at least 8 characters
   * email: String
     * Must contain @ symbol  
+
 }
 
 ## User Profile:
@@ -26,6 +27,8 @@
     * country: String
     * state: String
     * city: string
+
   }
   * DisabledFields: [ array of DisabledFields ]
+  
 }
