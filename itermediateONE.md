@@ -3,20 +3,20 @@
 ## User Profile
 
 {
-  Type: user profile
-  name: String
-  PhoneNumber: string
+  * Type: user profile
+  * name: String
+  * PhoneNumber: string
 
 }
 
 ## reservation
 
 {
-  Type: reservation
-  guestName: userProfile.name
-  GustPhoneNumber: userProfile.PhoneNumber
-  numberofGuests: integer
-  table: Table.TableNum
+  * Type: reservation
+  * guestName: userProfile.name
+  * GustPhoneNumber: userProfile.PhoneNumber
+  * numberofGuests: integer
+  * table: Table.TableNum
 
 }
 
@@ -24,14 +24,14 @@
 ## table
 
 {
-  Type: table
-  TableNum: integer
-  NumOfSeats: integer
-  availability: {
-    Date: {
-      timeslot: integer
-      available: boolean
-      
+  * Type: table
+  * TableNum: integer
+  * NumOfSeats: integer
+  * availability: {
+    * Date: {
+      * timeslot: integer
+      * available: boolean
+
     }
 
   }
